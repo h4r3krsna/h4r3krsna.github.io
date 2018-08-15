@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manju Sreedaran - Bachelor of Applied Science at Green River College</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style>
+        /*
+        NEON GREEN #00FF95;
+        #9500FF
+        INTERNSHIP GREEN rgb(161,201,0);
+        NOT SO WHITE #EFEFEF;
+        TEAL 1980S rgba(0, 255, 149, .8);
+        HOT PINK #FF006A;
+        */
+
+        body {
+            background-color: #EFEFEF;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-bottom: 20px;
+        }
+
+        section {
+            padding: 0px 10px 10px 10px;
+            background-color: white;
+            color: #696969;
+            box-shadow: 4px 4px rgba(105,105,105,.8);
+        }
+
+        section.internship {
+            background-color: white;
+            color: black;
+            box-shadow: 4px 4px rgba(105,105,105,.8);
+        }
+
+        section.internship h3 {
+            color: white;
+            font-weight: bold;
+            background-color: rgba(141,0,201,1);
+        }
+
+        section.capstone {
+            background-color: white;
+            color: black;
+            box-shadow: 4px 4px rgba(105,105,105,.8);
+        }
+
+        section.capstone h3 {
+            color: white;
+            background-color: rgb(40, 167, 69);
+        }
+
+        section.capstone a, section.capstone a:visited {
+            color: rgb(40, 167, 69);
+        }
+
+        section.capstone a:hover {
+            color: rgb(141,0,201);
+        }
+
+        h2 {
+            margin: 20px 0px 0px;
+            padding: 0px;
+            line-height: 1;
+        }
+
+        h3 {
+            padding: 3px;
+            background-color: #696969;
+            color: white;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+
+        #pixatel-internship {
+            background-color: black;
+            color: white;
+            box-shadow: 4px 4px rgba(255, 156, 56, 1);
+        }
+
+        #pixatel-internship h3 {
+            color: rgba(18,94,240,1);
+            font-weight: bold;
+            background-color: white;
+        }
+
+        #rei-internship {
+            /*background-image:url(./img/trees.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-size: 25%;*/
+            background-color: white;
+            box-shadow: 4px 4px rgba(141,0,201,1);
+            color: #696969;
+        }
+
+        #rei-internship h3 {
+            color: rgb(161,201,0);
+            font-weight: bold;
+            background-color: black;
+        }
+
+        header {
+            border-bottom: 1px solid gray;
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+
+        header a, header a:visited, header a:hover, .modal a, .modal a:visited, .modal a:hover {
+            color:black;
+            font-weight: bold;
+        }
+
+        section a, section a:visited {
+            text-decoration: underline;
+            color: rgb(40, 167, 69);
+        }
+        section a:hover {
+            color: rgb(141,0,201);
+        }
+
+        footer a, footer a:hover, footer a:visited {
+            color: black;
+            font-weight: bold;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            padding: 10px 20px;
+        }
+    </style>
+
+</head>
+
+
+<body>
+<div class="container">
+    <article>
+        <div class="row">
+            <div class="col-xs-12">
+                <header class="header">
+                    <h1><strong>Manju Sreedaran</strong></h1>
+                    <p><em>Student Portfolio in Software Development &copy; 2018</em>
+                        <br>
+                        <a href="https://www.linkedin.com/in/manjunathsreedaran">LinkedIn</a> | <a href="https://github.com/h4r3krsna">GitHub</a>
+                    </p>
+                    <span id="elevator-pitch">
+                    <p>I am a software developer and Certified ScrumMaster&reg; Professional specializing in full-stack web development. I love crafting systems that wrangle your input into a meaningful result. I have internship experience with REST APIs and Web UI, working in both traditional and Agile projects. I am familiar with C#, Java, and PHP on the back end, as well as jQuery and Bootstrap on the front end.</p>
+                    <p>I am looking for a full-time role in web development. I would love to connect with you on LinkedIn and find out about job opportunities at your company!</p>
+                    </span>
+                </header>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2>Internships</h2>
+            <div class="row">
+                <div class="col-xs-12">
+                    <section class="internship">
+                        <h3>Pixatel Systems Software Developer (Current)</h3>
+                        <ul>
+                            <li>Built a REST API in C# for database CRUD operations, and a single-page MVC app consuming the API</li>
+                            <li>Ported and unit-tested an API for an iOS app from Swift version 3 to 4</li>
+                            <li>Enhanced a custom-built CRM front-end with jQuery and AJAX</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <section class="internship">
+                        <h3>REI Co-op Software Engineer (Summer 2017)</h3>
+                        <h4>REST Microservice in Java 8</h4>
+                        <ul>
+                            <li>Collaborated in bi-weekly sprints to support retail store payment terminal operations.</li>
+                            <li>Committed code for production in an agile, test-driven, continuous delivery environment.</li>
+                            <li>Participated in scrum ceremonies including sprint planning, review, retrospective and backlog grooming.</li>
+                            <li>Development stack included REI-internal platform, IntelliJ, Spring, Maven, git, Jenkins.</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2>Capstone Projects</h2>
+            <div class="row">
+                <div class="col-xs-12">
+                    <section class="capstone">
+                        <h3>Academic Assessment Web Form</h3>
+                        <h4><a href="http://request.greenrivertech.net">Green River College Prior Learning Assessment Form</a></h4>
+                        <ul>
+                            <li>Tech stack: PHP (Fat-Free Framework), MySQL, jQuery, Bootstrap, Selenium, JUnit</li>
+                            <li>Individually handled Agile project as Scummaster and developer through all phases of SDLC</li>
+                            <li>Converted paper-based form to validated web form with email notification and PDF generation</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <section class="capstone">
+                        <h3>Small Business Marketing and Customer Portal</h3>
+                        <h4><a href="http://www.cavnesshr.com">CavnessHR</a></h4>
+                        <ul>
+                            <li>Requirements analysis and product backlog creation</li>
+                            <li>Conducted sprint planning, backlog grooming, sprint review, and retrospective</li>
+                            <li>Automated testing with Selenium</li>
+                            <li>Automated email campaign with Sendgrid</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2>Coursework</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <section>
+                        <h3>IT 328 Full Stack Web Development</h3>
+                        <h4>Carpooling App using "Fat-Free" PHP Framework</h4>
+                        <ul>
+                            <li><b><a href="http://msreedaran.greenrivertech.net/328/carpool_buddy">Carpool Buddy</a></b> for connecting commuters</li>
+                            <li>MySQL tables for authentication and data entry</li>
+                            <li>Form-based user authentication in PHP</li>
+                        </ul>
+                        <h4>User Registration Form in PHP</h4>
+                        <ul>
+                            <li><b><a href="http://msreedaran.greenrivertech.net/328/validated_form/form.php">User Registration Form</a></b></li>
+                            <li>Server- and client-side validation</li>
+                            <li>Form submission summary</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section>
+                        <h3>IT 305 Web Development Frameworks</h3>
+                        <h4>PHP + HTML5 + Bootstrap + jQuery</h4>
+                        <ul>
+                            <li><b><a href="http://msreedaran.greenrivertech.net/flightplan">Jobs & Scholarship Portal</a></b></li>
+                            <li>Admin section with authentication</li>
+                            <li>Content Update forms with validation</li>
+                        </ul>
+                        <h4>HTML5 Form for MySQL Table in PHP</h4>
+                        <ul>
+                            <li><a href="./contacts/contact-form.php">Entry Form</a> with Bootstrap</li>
+                            <li><a href="./contacts/contacts.php">Table View</a> with Boostrap</li>
+                        </ul>
+                        <h4>Site Layout in CSS3</h4>
+                        <ul>
+                            <li>A branded <a href="./IT305HW4/index.html">small business</a> website</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section>
+                        <h3>IT 301 Systems Programming</h3>
+                        <h4>Multithreaded Web Crawler in Java</h4>
+                        <ul>
+                            <li>Thread-safe queue implementation</li>
+                            <li>Producer-Consumer design pattern</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    <section>
+                        <h3>IT 405 Mobile Development Frameworks</h3>
+                        <h4>Android Development</h4>
+                        <ul>
+                            <li>UI Layout and Event Handling</li>
+                            <li>Threading and Asynchronous Event Handling</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <section>
+                        <h3>IT 426 Design Patterns</h3>
+                        <h4>GUI Application in JavaFX</h4>
+                        <ul>
+                            <!-- <li>link to github project</li> -->
+                            <li>Multi-window UI with dialogs</li>
+                            <li>Persistent data storage</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+
+<footer>
+
+</footer>
+
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script>
+
+    $('.row').hide();
+    //$('#elevator-pitch').hide();
+    //$('body').hide().fadeIn(550);
+
+    //$('section').each(function(section) {
+    //  section.fadeIn(200);
+    //});
+
+    $('.row').each(function(index) {
+        $(this).delay(300*index).fadeIn(200);
+    });/*.promise().done(function() {
+        $('#elevator-pitch').slideDown();
+    });*/
+
+</script>
+
+</body>
+
+</html>
