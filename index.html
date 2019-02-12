@@ -133,14 +133,14 @@
             <div class="col-xs-12">
                 <header class="header">
                     <h1><strong>Manjunath Sreedaran</strong></h1>
-                    <p><em>Portfolio in Software Development &copy; 2019</em>
+                    <p><em>Software Developer Portfolio &copy; 2019</em>
                         <br>
                         <a href="https://www.linkedin.com/in/manjunathsreedaran">LinkedIn</a> | <a href="https://github.com/h4r3krsna">GitHub</a>
                     </p>
-                    <span id="elevator-pitch">
+                    <div id="elevator-pitch">
                     <p>I am a software developer and Certified ScrumMaster&reg; Professional specializing in full-stack web development. I love crafting systems that wrangle your input into a meaningful result. I have internship experience with REST APIs and Web UI, working in both traditional and Agile projects. I am familiar with C#, Java, and PHP on the back end, as well as jQuery and Bootstrap on the front end.</p>
                     <p>I am looking for a full-time role in web development. I would love to connect with you on LinkedIn and find out about job opportunities at your company!</p>
-                    </span>
+                    </div>
                 </header>
             </div>
         </div>
@@ -198,8 +198,8 @@
                         <ul>
                             <li>Requirements analysis and product backlog creation</li>
                             <li>Conducted sprint planning, backlog grooming, sprint review, and retrospective</li>
-                            <li>Automated testing with Selenium</li>
                             <li>Automated email campaign with Sendgrid</li>
+                            <li>Automated UI testing with Selenium</li>
                         </ul>
                     </section>
                 </div>
@@ -214,13 +214,15 @@
                         <h3>IT 328 Full Stack Web Development</h3>
                         <h4>Carpooling App using "Fat-Free" PHP Framework</h4>
                         <ul>
-                            <li><b><a href="http://msreedaran.greenrivertech.net/328/carpool_buddy">Carpool Buddy</a></b> for connecting commuters</li>
+                            <li><b><a href="#">Carpool Buddy</a></b> for connecting commuters</li>
+                            <!-- http://msreedaran.greenrivertech.net/328/carpool_buddy -->
                             <li>MySQL tables for authentication and data entry</li>
                             <li>Form-based user authentication in PHP</li>
                         </ul>
                         <h4>User Registration Form in PHP</h4>
                         <ul>
-                            <li><b><a href="http://msreedaran.greenrivertech.net/328/validated_form/form.php">User Registration Form</a></b></li>
+                            <li><b><a href="#">User Registration Form</a></b></li>
+                            <!-- http://msreedaran.greenrivertech.net/328/validated_form/form.php -->
                             <li>Server- and client-side validation</li>
                             <li>Form submission summary</li>
                         </ul>
@@ -231,18 +233,22 @@
                         <h3>IT 305 Web Development Frameworks</h3>
                         <h4>PHP + HTML5 + Bootstrap + jQuery</h4>
                         <ul>
-                            <li><b><a href="http://msreedaran.greenrivertech.net/flightplan">Jobs & Scholarship Portal</a></b></li>
+                            <li><b><a href="#">Jobs & Scholarship Portal</a></b></li>
+                            <!-- http://msreedaran.greenrivertech.net/flightplan -->
                             <li>Admin section with authentication</li>
                             <li>Content Update forms with validation</li>
                         </ul>
                         <h4>HTML5 Form for MySQL Table in PHP</h4>
                         <ul>
-                            <li><a href="./contacts/contact-form.php">Entry Form</a> with Bootstrap</li>
-                            <li><a href="./contacts/contacts.php">Table View</a> with Boostrap</li>
+                            <li><a href="#">Entry Form</a> with Bootstrap</li>
+                            <!-- ./contacts/contact-form.php -->
+                            <li><a href="#">Table View</a> with Boostrap</li>
+                            <!-- ./contacts/contacts.php -->
                         </ul>
                         <h4>Site Layout in CSS3</h4>
                         <ul>
-                            <li>A branded <a href="./IT305HW4/index.html">small business</a> website</li>
+                            <li>A branded <a href="#">small business</a> website</li>
+                            <!-- ./IT305HW4/index.html -->
                         </ul>
                     </section>
                 </div>
@@ -292,21 +298,30 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script>
+    function fadeInAll() { // simple presentation
+        $('body').hide().fadeIn(550);
+    }
 
-    $('.row').hide();
-    //$('#elevator-pitch').hide();
-    //$('body').hide().fadeIn(550);
+    function hideEverything() {
+        $('#elevator-pitch').hide();
+        $('.row').hide();
+    }
 
-    //$('section').each(function(section) {
-    //  section.fadeIn(200);
-    //});
 
-    $('.row').each(function(index) {
-        $(this).delay(300*index).fadeIn(200);
-    });/*.promise().done(function() {
-        $('#elevator-pitch').slideDown();
-    });*/
+    function showEverything() {
+        $('.row').each(function(index) {
+            $(this).delay(300*index).fadeIn(200);
+        }).promise().done(function() {
+            $('#elevator-pitch').slideDown();
+        });
+    }
 
+    function present() {
+        hideEverything();
+        showEverything();
+    }
+
+    present();
 </script>
 
 </body>
