@@ -367,9 +367,12 @@
 
     function showEverything() {
         $('.row').each(function(index) {
-            $(this).delay(300*index).fadeIn(200);
-        }).promise().done(function() {
-            $('#elevator-pitch').slideDown();
+            if (index == 0) {
+              $(this).show();
+              $('#elevator-pitch').slideDown(1500);
+            } else {
+              $(this).delay(300*index).fadeIn(200);
+            }
         });
     }
 
